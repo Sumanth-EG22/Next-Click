@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+/* ------------------ navigation bars ------------------ */
+.navbar1,
+.navbar2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content: space-between;
+}
+/* ------------------ navigation bar 1 ------------------ */
+.navbar1 {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+.navbar1div1 {
+  margin-left: 3%;
+}
+.navbar1 i,
+.navbar1 h1,
+.navbar1 h3 {
+  display: inline-block;
+  padding: 0.6rem;
+}
+.navbar1div1 i,
+.navbar1div1 h1 {
+  font-size: 100%;
+}
+.navbar1div2 {
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar1div2 h3 {
+  font-size: 80%;
+}
+.circle {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle h3 {
+  color: white;
+  position: absolute;
+}
+
+/* ------------------ navigation bar 2 ------------------ */
+
+.navbar2 {
+  background-color: black;
+}
+.navbar2div1 {
+  margin-left: 3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar2div1 i {
+  padding: 0.6rem;
+}
+.navbar2div1 select {
+  display: inline-block;
+  background-color: grey;
+  height: 60%;
+  margin-left: 0.3rem;
+  padding: 0.3rem;
+}
+.navbar2div1 select option {
+  border-color: grey;
+}
+.navbar2div2 {
+  margin-right: 3%;
+}
+.sortby {
+  color: white;
+  font-size: 85%;
+}
+
+.selected-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.selected-div .image-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.selected-div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sumac {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* ... Your existing styles ... */
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .selected-div {
+    flex: 1;
+  }
+  
+  .details-buttons {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .details-container h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for Wishlist and Add to Cart buttons */
+  .details-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .details-buttons button:hover {
+    opacity: 0.8;
+  }
+  

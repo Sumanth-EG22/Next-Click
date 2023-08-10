@@ -1,1 +1,2 @@
-# Next-Click
+# ecommerce-website
+JS project
